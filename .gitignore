@@ -1,0 +1,12 @@
+### IntelliJ IDEA ###
+out/
+!**/src/ua/**/classwork/
+*.iml
+.idea/
+*.xml
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
