@@ -1,7 +1,7 @@
 package ua.com.cbs.homework.task4Computer;
 
 public class Computer {
-  private int number;
+  private final int number;
 
   public Computer(int number) {
     this.number = number;
