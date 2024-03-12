@@ -1,8 +1,8 @@
 ### IntelliJ IDEA ###
 out/
-!**/src/ua/**/classwork/
+**/src/ua/**/classwork/
 *.iml
-.idea/
+.idea
 *.xml
 
 # Compiled class file
