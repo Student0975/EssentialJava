@@ -3,6 +3,7 @@ out/
 **/src/ua/**/classwork/
 *.iml
 .idea
+.idea/
 *.xml
 
 # Compiled class file
