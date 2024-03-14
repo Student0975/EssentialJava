@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_IntroductionOOP/1_IntroductionOOP.iml" filepath="$PROJECT_DIR$/1_IntroductionOOP/1_IntroductionOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_ClassesAndObjects/2_ClassesAndObjects.iml" filepath="$PROJECT_DIR$/2_ClassesAndObjects/2_ClassesAndObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_InheritanceAndPolymorphism/3_InheritanceAndPolymorphism.iml" filepath="$PROJECT_DIR$/3_InheritanceAndPolymorphism/3_InheritanceAndPolymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEssential.iml" filepath="$PROJECT_DIR$/JavaEssential.iml" />
+    </modules>
+  </component>
+</project>
