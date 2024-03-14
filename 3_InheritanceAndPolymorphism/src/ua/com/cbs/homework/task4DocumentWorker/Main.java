@@ -1,4 +1,4 @@
-package ua.com.cbs.homework.DocumentWorker;
+package ua.com.cbs.homework.task4DocumentWorker;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

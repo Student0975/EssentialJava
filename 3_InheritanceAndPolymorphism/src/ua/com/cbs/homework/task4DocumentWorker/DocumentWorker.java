@@ -1,4 +1,4 @@
-package ua.com.cbs.homework.DocumentWorker;
+package ua.com.cbs.homework.task4DocumentWorker;
 
 public class DocumentWorker {
 
