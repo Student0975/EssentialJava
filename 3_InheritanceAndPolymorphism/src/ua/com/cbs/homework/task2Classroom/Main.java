@@ -1,5 +1,8 @@
 package ua.com.cbs.homework.task2Classroom;
 
+import java.util.ArrayList;
+import java.util.Random;
+
 /**
  * Створити клас, який представляє навчальний клас ClassRoom.
  * Створіть клас учень Pupil. У тілі класу створіть методи void study(), void read(), void write(), void relax().
@@ -13,24 +16,35 @@ package ua.com.cbs.homework.task2Classroom;
 public class Main {
 
   public static void main(String[] args) {
-    ExcellentPupil pupil1 = new ExcellentPupil();
-    ExcellentPupil pupil2 = new ExcellentPupil();
-    GoodPupil      pupil3 = new GoodPupil();
-    GoodPupil      pupil4 = new GoodPupil();
-    BadPupil       pupil5 = new BadPupil();
-    BadPupil       pupil6 = new BadPupil();
+    ArrayList<Pupil> pupils= new ArrayList<>();
+    pupils.add(new ExcellentPupil());
+    pupils.add(new ExcellentPupil());
+    pupils.add(new GoodPupil());
+    pupils.add(new GoodPupil());
+    pupils.add(new BadPupil());
+    pupils.add(new BadPupil());
 
-    Classroom classroom1 = new Classroom(pupil1, pupil3);
+    Random randomIndex = new Random();
+
+    Classroom classroom1 = new Classroom(pupils.get(randomIndex.nextInt(6 - 1) + 1),
+        pupils.get(randomIndex.nextInt(6 - 1) + 1));
     classroom1.showInfo("\nClassroom1 info :", classroom1);
 
-    Classroom classroom2 = new Classroom(pupil3, pupil5);
+    Classroom classroom2 = new Classroom(pupils.get(randomIndex.nextInt(6 - 1) + 1),
+        pupils.get(randomIndex.nextInt(6 - 1) + 1));
     classroom2.showInfo("\nClassroom2 info :", classroom2);
 
-    Classroom classroom3 = new Classroom(pupil1, pupil3, pupil5);
+    Classroom classroom3 = new Classroom(pupils.get(randomIndex.nextInt(6 - 1) + 1),
+        pupils.get(randomIndex.nextInt(6 - 1) + 1),
+        pupils.get(randomIndex.nextInt(6 - 1) + 1)
+    );
     classroom3.showInfo("\nClassroom3 info :", classroom3);
 
-    Classroom classroom4 = new Classroom(pupil1, pupil4, pupil3, pupil6);
-    classroom3.showInfo("\nClassroom4 info :", classroom4);
+    Classroom classroom4 = new Classroom(pupils.get(randomIndex.nextInt(6 - 1) + 1),
+        pupils.get(randomIndex.nextInt(6 - 1) + 1),
+        pupils.get(randomIndex.nextInt(6 - 1) + 1),
+        pupils.get(randomIndex.nextInt(6 - 1) + 1));
+    classroom4.showInfo("\nClassroom4 info :", classroom4);
   }
 
 
