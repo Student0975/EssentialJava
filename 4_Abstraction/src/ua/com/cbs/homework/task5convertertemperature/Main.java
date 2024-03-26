@@ -18,12 +18,12 @@ public class Main {
       }
     } while (checkingInputConditions(temperature));
 
-    ConverterCelsiusToFahrenheit converterCelsiusToFahrenheit = new ConverterCelsiusToFahrenheit();
+    ConverterTemperature converterTemperature = new ConverterCelsiusToFahrenheit();
     System.out.printf("\nTemperature in degrees Celsius equals temperature in degrees Fahrenheit : %.2f = %.2f", temperature,
-        converterCelsiusToFahrenheit.convert(temperature));
-    ConverterCelsiusToKelvin converterCelsiusToKevin = new ConverterCelsiusToKelvin();
+        converterTemperature.convert(temperature));
+    converterTemperature = new ConverterCelsiusToKelvin();
     System.out.printf("\nTemperature in degrees Celsius equals temperature in Kevins             : %.2f = %.2f", temperature,
-        converterCelsiusToKevin.convert(temperature));
+        converterTemperature.convert(temperature));
   }
 
   private static boolean checkingInputConditions(double temperature) {
