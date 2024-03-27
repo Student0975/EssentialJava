@@ -2,7 +2,7 @@
 out/
 **/src/ua/**/classwork/
 .idea
-.idea/modules.xml
+
 *.iml
 *.iws
 *.ipr
