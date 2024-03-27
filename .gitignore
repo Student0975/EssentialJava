@@ -2,6 +2,7 @@
 out/
 **/src/ua/**/classwork/
 .idea
+.idea/
 
 *.iml
 *.iws
