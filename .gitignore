@@ -1,12 +1,19 @@
 ### IntelliJ IDEA ###
 out/
-**/src/ua/**/classwork/
-*.iml
-/.idea
+!**/src/ua/**/classwork/
 .idea
-.idea/
-.idea/*.*
+*.iml
+*.iws
+*.ipr
 *.xml
+
+.idea/**/workspace.xml
+.idea/**/modules.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
 
 # Compiled class file
 *.class
